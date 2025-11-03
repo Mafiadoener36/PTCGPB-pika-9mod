@@ -2082,9 +2082,9 @@ NextStep:
             IniRead, autoUseGPTest, Settings.ini, UserSettings, autoUseGPTest, 0
             IniRead, TestTime, Settings.ini, UserSettings, TestTime, 3600
             ;Time settings
-            IniRead, Delay, Settings.ini, UserSettings, Delay, 250
-            IniRead, waitTime, Settings.ini, UserSettings, waitTime, 5
-            IniRead, swipeSpeed, Settings.ini, UserSettings, swipeSpeed, 300
+            IniRead, Delay, Settings.ini, UserSettings, Delay, 525
+            IniRead, waitTime, Settings.ini, UserSettings, waitTime, 12
+            IniRead, swipeSpeed, Settings.ini, UserSettings, swipeSpeed, 600
             IniRead, slowMotion, Settings.ini, UserSettings, slowMotion, 0
             
             ;system settings
