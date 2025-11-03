@@ -2073,7 +2073,7 @@ NextStep:
             IniRead, FriendID, Settings.ini, UserSettings, FriendID, ""
             ;instance settings
             IniRead, Instances, Settings.ini, UserSettings, Instances, 1
-            IniRead, instanceStartDelay, Settings.ini, UserSettings, instanceStartDelay, 0
+            IniRead, instanceStartDelay, Settings.ini, UserSettings, instanceStartDelay, 5
             IniRead, Columns, Settings.ini, UserSettings, Columns, 5
             IniRead, runMain, Settings.ini, UserSettings, runMain, 1
             IniRead, Mains, Settings.ini, UserSettings, Mains, 1
@@ -2083,7 +2083,7 @@ NextStep:
             IniRead, TestTime, Settings.ini, UserSettings, TestTime, 3600
             ;Time settings
             IniRead, Delay, Settings.ini, UserSettings, Delay, 525
-            IniRead, waitTime, Settings.ini, UserSettings, waitTime, 12
+            IniRead, waitTime, Settings.ini, UserSettings, waitTime, 5
             IniRead, swipeSpeed, Settings.ini, UserSettings, swipeSpeed, 600
             IniRead, slowMotion, Settings.ini, UserSettings, slowMotion, 0
             
